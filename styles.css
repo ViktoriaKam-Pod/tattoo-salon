@@ -1,0 +1,296 @@
+body{
+    background-color: #BB9981;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.name{
+    color: #352826;
+    margin-right: auto;
+    font-size: 30px;
+    padding: 20px;
+    text-decoration: none;
+}
+.navigation{
+    text-decoration: none;
+    color: #352826;
+    padding: 20px;
+    font-size: 20px;
+}
+.navigation:hover{
+    text-decoration: overline;
+}
+.first{
+    padding: 230px 250px 210px;
+    background-color: #534340;
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.heading-foto{
+    margin-top: 30px;
+    position: relative;
+}
+.topimg{
+    width: 480px;
+    height: 380px;
+    margin-right: 50px;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #C5D8A4;
+    
+}
+.some-text{
+    color: #352826;
+    font-size: 20px;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.header-paragraph{
+    line-height: 35px;
+}
+
+.header{
+    align-self: center;
+    line-height: 60px;
+    font-size: 30px;
+    color: #352826;
+}
+h3{
+    align-self: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: #352826;
+
+}
+.studio{
+    padding: 10px 200px;
+    line-height: 1.5;
+    font-size: 20px;
+    text-align:  center;
+}
+.transform:hover{
+    text-transform: uppercase;
+}
+.kind{
+    display: flex;
+    flex-direction: column;
+    background-color: #C5D8A4;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.img{
+    align-self: center;
+    border: 10px outset #BB9981;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    width: 400px;
+    height: 450px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 30px;
+    border: 3px outset #BB9981;
+    border-right: none;
+}
+label{
+    margin-left: 20px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button-go{
+    background-color: #534340;
+    color: #C5D8A4;
+    text-transform: uppercase;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    flex: 1;
+    border: none;
+    margin-top: 10px;
+}
+.button-go:hover{
+    background-color: #C5D8A4;
+}
+a{
+    text-decoration: none;
+}
+#myVideo{
+    width: 100%;
+    margin-top: 50px;
+}
+@media all and ( max-width:500px ) {
+    body{
+        width: available;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation{
+        font-size: 15px;
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+        max-width: 210px;
+    }
+    .header{
+        font-size: 15px;
+    }
+    .some-text{
+        font-size: 15px;
+        width: fit-content;
+        
+    }
+    .first{
+        padding: 100px;
+    }
+    .topimg{
+        max-width: 200px;
+        height: 150px;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        align-self: flex-start;
+        font-size: 15px;
+        width: 200px;
+        line-height: normal;
+    }
+    .studio{
+        align-items: flex-start;
+        font-size: 15px;
+        padding: 1px;
+        text-align: justify;
+        width: 200px;
+    }
+    .kind{
+        display: flex;
+        flex-direction: column;
+        max-width: 210px;
+    }
+    .img{
+        border: none;
+        min-width: 200px;
+        height: 200px;
+        margin-right: auto;
+    }
+    .form{
+        max-width: 210px;
+    }
+    .button-go{
+        max-width: 210px;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    }
+    
+    
+    @media all and ( max-width:800px ) {
+        body{
+            width: available;
+        }
+        nav{
+            display: flex;
+            flex-direction: column;
+        }
+        .navigation{
+            font-size: 15px;
+        }
+        .heading{
+            display: flex;
+            flex-direction: column;
+            max-width: 210px;
+        }
+        .header{
+            font-size: 15px;
+        }
+        .some-text{
+            font-size: 15px;
+            width: fit-content;
+            
+        }
+        .first{
+            padding: 100px;
+        }
+        .topimg{
+            max-width: 200px;
+            height: 150px;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+        }
+        .header{
+            align-self: flex-start;
+            font-size: 15px;
+            width: 200px;
+            line-height: normal;
+        }
+        .studio{
+            align-items: flex-start;
+            font-size: 15px;
+            padding: 1px;
+            text-align: justify;
+            width: 200px;
+        }
+        .kind{
+            display: flex;
+            flex-direction: column;
+            max-width: 210px;
+        }
+        .img{
+            border: none;
+            min-width: 200px;
+            height: 200px;
+            margin-right: auto;
+        }
+        .form{
+            max-width: 210px;
+        }
+        .button-go{
+            max-width: 210px;
+        }
+        .button{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        }
+        
+
+
